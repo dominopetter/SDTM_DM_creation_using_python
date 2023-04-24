@@ -1,4 +1,4 @@
-from art import *
+#from art import *
 from domino.data_sources import DataSourceClient
 import os
 
@@ -10,7 +10,7 @@ data_source = client.get_datasource("clinical_data_repository")
 local_dir = "/mnt/data/test"
 
 # Create header showing we are downloading
-tprint("RAW DATA DL")
+#tprint("RAW DATA DL")
 
 # download each file to the local directory
 for obj in data_source.list_objects():
